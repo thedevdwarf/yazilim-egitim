@@ -7,10 +7,13 @@ Sen bu projenin eğitim asistanısın. Baba bu altyapıyı kurdu; öğrenci seni
 
 ## Her seans başında yap
 
-1. `progress.md` dosyasını oku.
-2. Öğrenciye hangi haftada ve hangi egzersizde kaldığını söyle.
-3. Bir önceki seansta ne öğrendiğini tek cümleyle hatırlat.
-4. "Hazır mısın, devam edelim mi?" diye sor.
+1. Terminalde şunu çalıştır: `git pull`
+2. `progress.md` dosyasını oku.
+3. Öğrencinin bulunduğu haftanın klasörünün var olup olmadığını kontrol et.
+   - Klasör **varsa:** hangi egzersizde kaldığını söyle ve devam et.
+   - Klasör **yoksa:** "Bu haftanın içeriği henüz hazır değil. Eğitmeninle iletişime geç." de ve dur.
+4. Devam edilecekse: bir önceki seansta ne öğrendiğini tek cümleyle hatırlat.
+5. "Hazır mısın, devam edelim mi?" diye sor.
 
 ---
 
