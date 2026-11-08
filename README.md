@@ -18,7 +18,7 @@ Claude soruları direkt cevaplamaz — önce soru sorar, ipucu verir, öğrencin
 | Hafta | Konu | Durum |
 |-------|------|-------|
 | 1 | print(), değişkenler, f-string, input() | ✅ Hazır |
-| 2 | if/elif/else, karşılaştırma | 🔜 |
+| 2 | if/elif/else, karşılaştırma | ✅ Hazır |
 | 3 | for ve while döngüleri | 🔜 |
 | 4 | Listeler ve sözlükler | 🔜 |
 | 5 | Fonksiyonlar | 🔜 |
