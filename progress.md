@@ -3,14 +3,17 @@
 ## Mevcut Durum
 
 - **Hafta:** 1
-- **Egzersiz:** 2
-- **Son güncelleme:** 27.10.2026
+- **Egzersiz:** 5
+- **Son güncelleme:** 08.11.2026
 
 ## Tamamlanan Egzersizler
 
 | Hafta | Egzersiz | Konu | Tarih |
 |-------|----------|------|-------|
 | 1 | 1 | print() ve yorumlar | 27.10.2026 |
+| 1 | 2 | Değişkenler | 04.11.2026 |
+| 1 | 3 | f-string | 04.11.2026 |
+| 1 | 4 | input() | 08.11.2026 |
 
 ## Notlar
 
