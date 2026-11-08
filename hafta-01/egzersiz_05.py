@@ -42,7 +42,18 @@
 
 # Kodunu buraya yaz:
 
-
+isim = input("Adın ne? ")
+yasim = int(input("kaç yaşındasın? "))
+sehir = input("hangi şehirde oturuyorsun? ")
+pt = input("şuan hangi kodlama dilini öğreniyorsun? ")
+print(" ╔═════════════════════════╗")
+print(" ║     KİŞİSEL KARTVİZİT   ║")
+print(" ║═════════════════════════╣")
+print(f" ║ Ad: {isim}                ║")           
+print(f" ║ Yaş: {yasim}                 ║")
+print(f" ║ Şehir: {sehir}          ║")
+print(f" ║ Dil: {pt}             ║")
+print(f" ╚═════════════════════════╝")
 # ============================================================
 # GÖREV 2: Yaş hesaplayıcı
 # ============================================================
@@ -55,6 +66,8 @@
 
 # Kodunu buraya yaz:
 
+dogum = int(input("doğum yılın ne? "))
+print(f"{dogum} doğumluysanız 2026'da {2026 - dogum} yaşındasınız.")
 
 # ============================================================
 # GÖREV 3: Basit bütçe hesabı
@@ -77,7 +90,12 @@
 
 # Kodunu buraya yaz:
 
-
+gelir = float(input("gelirin ne kadar? "))
+gider = float(input("giderin ne kadar? "))
+print(f"Gelir : {gelir} TL")
+print(f"Gider : {gider} TL")
+print(f"Kalan : {gelir - gider} TL")
+print(f"Gider oranı: %{gider / gelir * 100}")
 # ============================================================
 # TAMAMLANDIĞINDA:
 # 1. Programı çalıştır: python egzersiz_05.py

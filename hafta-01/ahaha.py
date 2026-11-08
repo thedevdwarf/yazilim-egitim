@@ -21,5 +21,6 @@ print("-------------------")
 hp = int(input("başladığın zaman kaç HP var? "))
 kb = int(input("bir goomba'ya deyince kaç can kaybettin? "))
 print(f"{hp} - {kb} = {hp - kb}")
-
-bolum = int(input("başladığın zaman kaç HP var? "))
+ 
+altin = int(input("her bölümde kaç altın topladın?"))
+print(f"toplam {altin} altının var!")

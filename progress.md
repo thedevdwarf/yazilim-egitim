@@ -2,9 +2,9 @@
 
 ## Mevcut Durum
 
-- **Hafta:** 1
-- **Egzersiz:** 5
-- **Son güncelleme:** 08.11.2026
+- **Hafta:** 2
+- **Egzersiz:** 1
+- **Son güncelleme:** 09.11.2026
 
 ## Tamamlanan Egzersizler
 
@@ -14,6 +14,7 @@
 | 1 | 2 | Değişkenler | 04.11.2026 |
 | 1 | 3 | f-string | 04.11.2026 |
 | 1 | 4 | input() | 08.11.2026 |
+| 1 | 5 | Mini meydan okuma | 09.11.2026 |
 
 ## Notlar
 
