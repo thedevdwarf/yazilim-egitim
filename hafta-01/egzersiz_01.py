@@ -17,15 +17,15 @@
 
 # --- BÖLÜM 1: İlk print ---
 
-print("Merhaba Dünya!")
+
 
 # TODO 1: Kendi adını ekrana yazdır.
 # Beklenen çıktı: Merhaba, [adın]!
-
+print ("Merhaba, Aziz!")
 
 # TODO 2: Yaşını ekrana yazdır.
 # Beklenen çıktı: Ben 17 yaşındayım.
-
+print ("Ben 17 yaşındayım.")
 
 # --- BÖLÜM 2: Birden fazla satır ---
 
@@ -34,8 +34,9 @@ print("Merhaba Dünya!")
 # - Soyadın
 # - Şehrin
 # Her biri ayrı satırda görünmeli.
-
-
+print ("Aziz")
+print ("Tuzcu")
+print ("Kocaeli")
 # --- BÖLÜM 3: Boş satır bırakma ---
 
 # print() içine hiçbir şey yazmazsan boş satır bırakır.
@@ -48,10 +49,14 @@ print()
 #   Soyad: [soyadın]
 #
 # (Adın ve soyadın arasında boş bir satır olsun.)
-
+print("Ad: Aziz")
+print()
+print("Soyad: Tuzcu")
 
 # --- BONUS ---
 # Merak ettiğin bir şeyi dene. Sonucu Claude'a anlat.
 # Örnek sorular:
 #   print() içine sayı yazarsan ne olur?
 #   print() içine True yazarsan ne olur?
+Seri = input("Sevdiğin seri nedir?")
+print(Seri)

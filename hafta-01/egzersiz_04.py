@@ -28,7 +28,8 @@ print(f"Merhaba, {isim}!")
 # TODO 1: Kullanıcıdan şehrini al ve yazdır:
 # "İstanbul'dan mısın harika!"  gibi bir cümle kur.
 # (Şehir adı değişkenden gelmeli.)
-
+sehir = input("nerelisin? ")
+print(f"{sehir}'den misin? güzel.")
 
 # --- BÖLÜM 2: Sayı alma ---
 
@@ -37,7 +38,8 @@ print(f"Merhaba, {isim}!")
 # Sonra şunu yazdır:
 # "10 yıl sonra X yaşında olacaksın."
 # X değerini hesapla.
-
+yasim = int(input("kaç yaşındasın? "))
+print(f"10 yıl sonra {yasim + 10} yaşında olacaksın.")
 
 # --- BÖLÜM 3: Ondalıklı sayı ---
 
@@ -45,8 +47,8 @@ print(f"Merhaba, {isim}!")
 # float() ile sayıya çevir.
 # Sonra şunu yazdır:
 # "Boyun X metre."
-
-
+boyum = float(input("boyun kaç metre? "))
+print(f"boyun {boyum} metre.")
 # --- BÖLÜM 4: Mini form ---
 
 # TODO 4: Kullanıcıdan şu 3 bilgiyi sırayla al:
@@ -62,7 +64,14 @@ print(f"Merhaba, {isim}!")
 # -------------------
 # (Çizgi çizgiler sabit, bilgiler değişkenden gelmeli.)
 
-
+isim = input("Adın ne? ")
+yasim = int(input("kaç yaşındasın? "))
+renk = input("favori rengin ne? ")
+print("-------------------")
+print(f"Ad: {isim}")
+print(f"Yaş: {yasim}")
+print(f"Favori renk: {renk}")
+print("-------------------")
 # --- BÖLÜM 5: Basit hesap makinesi ---
 
 # TODO 5: Kullanıcıdan iki sayı al.
@@ -70,7 +79,9 @@ print(f"Merhaba, {isim}!")
 # "12 + 8 = 20"  gibi.
 # Sayıları int() ile çevir.
 
-
+sayi1 = int(input("Birinci sayı: "))
+sayi2 = int(input("ikinci sayı: "))
+print(f"{sayi1} + {sayi2} = {sayi1 + sayi2}")
 # --- BONUS ---
 # input() çağrıldığında kullanıcı hiçbir şey yazmadan
 # Enter'a basarsa ne olur?
