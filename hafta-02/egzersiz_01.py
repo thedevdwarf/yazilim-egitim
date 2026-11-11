@@ -20,7 +20,7 @@
 # --- BÖLÜM 1: İlk if / else ---
 
 # Bu örnek zaten çalışıyor, incele:
-yas = 20
+yas = 15
 
 if yas >= 18:
     print("Ehliyet alabilirsin.")
@@ -37,12 +37,23 @@ else:
 # 18 veya üstündeyse "Oy kullanabilirsin." yazdır.
 # Değilse "Oy kullanamaya henüz." yazdır.
 
+yas = int(input("Kaç yaşındasın? "))
+if yas >= 18:
+    print("Oy kullanabilirsin")
+else:
+    print("Henüz oy kullanamazsınız")
 
 # --- BÖLÜM 3: Sayı karşılaştırma ---
 
 # TODO 3: Kullanıcıdan bir sayı al.
 # 0'dan büyükse "Pozitif sayı." yazdır.
 # Değilse "Sıfır veya negatif." yazdır.
+
+yas = int(input("Bir sayı yaz "))
+if yas > 0:
+    print("Positif sayı")
+else:
+    print("Negatif sayı")
 
 
 # --- BÖLÜM 4: String karşılaştırma ---
@@ -54,6 +65,11 @@ else:
 # İpucu: == operatörü eşitlik kontrolü yapar.
 # "mavi" == "Mavi" → False  (büyük/küçük harf farklı!)
 
+renk = input ("Favori rengin nedir? ")
+if renk == "mavi":
+    print ("Benimde favorim!")
+else:
+    print ("güzel renk!")
 
 # --- BONUS ---
 # TODO 4'ü "MAVİ" yazarak test et.
